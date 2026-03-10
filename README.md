@@ -51,10 +51,10 @@ The goal is to create a reliable, centralized storage system with media streamin
 
 ### Plex Media Server (Docker)
 - Plex container runs in **host network mode**  
-- Config directory stored persistently on host (`/home/user/plex/config`)  
+- Config directory stored persistently on host (`/home/user/home-plex-server/plex/config`)  
 - Media volumes mounted individually:  
-  - `/mnt/disk1:/media1`  
-  - `/mnt/disk2:/media2`  
+  - `/mnt/ssd1:/media1`  
+  - `/mnt/ssd2:/media2`  
 - Docker Compose ensures automatic restarts  
 
 ### Monitoring Stack
