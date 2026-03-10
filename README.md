@@ -60,7 +60,7 @@ The goal is to create a reliable, centralized storage system with media streamin
 ### Monitoring Stack
 - Grafana dashboards display CPU, RAM, disk usage, and Docker container metrics  
 - Prometheus and Node Exporter optional for detailed host-level metrics  
-![Grafana Dashboard Example](media/grafanaExample.png)
+![Grafana Dashboard Example](Media/grafanaExample.png)
 
 ### Permissions
 - exFAT disks mounted with `uid=1000,gid=1000,fmask=002,dmask=002`  
