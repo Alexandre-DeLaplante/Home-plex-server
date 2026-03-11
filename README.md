@@ -79,5 +79,3 @@ The goal is to create a reliable, centralized storage system with media streamin
 - **Scalability & Expandability**: Design storage and Docker services to allow easy addition of new disks or services (e.g., Sonarr, Radarr, Jellyfin) without downtime.  
 - **Authentication & Access Control**: Enforce proper user permissions for Samba shares and Plex, using dedicated service accounts where possible.  
 
-
-## Setup Instructions
